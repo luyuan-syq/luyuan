@@ -1,0 +1,44 @@
+server:
+  context-path: /jch
+  port: 8080
+debug: false
+flyway:
+  enabled: false
+  check-location: true
+  locations: classpath:db/dml/h2
+mde:
+  core:
+    packages:
+    - com.imp.jch
+logging:
+  config: classpath:logging/logback-spring.xml
+spring:
+  security:
+    csrf:
+      enabled: false
+    jsonp:
+      enabled: false
+  profiles:
+    active: test
+    include: fbiz-core-test
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:tddl:tdatasource://JCH_AR_APP?isSharding=false
+    tddl:
+      health-check-sql: select count(*) from ar_product limit 1
+  cache:
+    ehcache:
+      name: jinchan_local
+      config: classpath:cache/ehcache.xml
+  redis:
+    database: 6
+    password: "imp-devops+A^"
+    timeout: 15000
+    pool:
+      max-total: 8
+      max-idle: 8
+      max-wait: -1
+      min-idle: 1
+    host: 11.160.46.235
+    port: 6379
+
