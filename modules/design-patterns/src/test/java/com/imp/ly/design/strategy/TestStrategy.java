@@ -25,4 +25,11 @@ public class TestStrategy {
 		BigDecimal result = context.getResult(BigDecimal.valueOf(100L));
 		Assert.isTrue(new BigDecimal(50L).compareTo(result) == 0, "不符合期望");
 	}
+
+	@Test
+	public void testFormat() {
+
+		String str = String.format("订单冻结(订单号%s)", "1234");
+		Assert.isTrue("订单冻结(订单号1234)".equals(str), "format错误");
+	}
 }
