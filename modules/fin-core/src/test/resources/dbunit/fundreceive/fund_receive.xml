@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+    <ar_fund_receive id="1" contract_no="ARC20180101000000" operating_unit="U83" used_amount="9999999999.0000000" amount="1000.0000000" receive_date="2018-05-01 10:46:44.0" currency="CNY" product_no="WL_CPC_RECHARGE" product_name="卧龙cpc充值" contract_status="SERVICE" fee_type="CHARGE" customer_no="EN20180401000001" customer_name="天天快递" customer_company="天天快递有限公司" user_id="1" is_agent="0" cash_source="ACT" fin_remark="自动充值到账" biz_act_no="20180415A0000001" ar_act_no="01010100" ar_tx_no="aaaa" ar_act_type="CPC" fund_flow_no="aaaaaa" created_on="2018-05-01 15:46:44.0" updated_on="2018-05-01 14:48:28.0" created_by="0" updated_by="0" deleted="0"/>
+</dataset>

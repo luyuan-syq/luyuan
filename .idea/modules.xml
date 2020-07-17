@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/modules/design-patterns/design-patterns.iml" filepath="$PROJECT_DIR$/modules/design-patterns/design-patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/fin-core/fin-core.iml" filepath="$PROJECT_DIR$/modules/fin-core/fin-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/modules/ly-modules.iml" filepath="$PROJECT_DIR$/modules/ly-modules.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent/ly-parent.iml" filepath="$PROJECT_DIR$/parent/ly-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/ly-project.iml" filepath="$PROJECT_DIR$/ly-project.iml" />

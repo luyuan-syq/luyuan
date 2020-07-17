@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache
+  memoryStoreEvictionPolicy="LRU"
+  timeToIdleSeconds="60"
+  timeToLiveSeconds="300"
+  maxBytesLocalHeap="200M"
+>
+  <cache
+    name="jinchan_local"
+    eternal="false"
+    timeToIdleSeconds="60"
+    timeToLiveSeconds="300"
+    maxBytesLocalHeap="100M"/>
+</ehcache>

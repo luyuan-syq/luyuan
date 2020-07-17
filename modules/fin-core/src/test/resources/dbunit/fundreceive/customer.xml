@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+    <fin_customer id="1" user_id="1" customer_no="EN20180401000001" name="天天快递" company_name="天天快递有限公司" customer_type="1" identity_type="1" biz_type="WL" country="CN" invoice_receiver="张先生" receive_way="1" inside="false" operating_unit="U83" status="ACTIVE" updated_on="2018-04-24 20:16:43.0" created_on="2018-04-24 20:16:43.0" created_by="0" updated_by="0" deleted="0"/>
+</dataset>
